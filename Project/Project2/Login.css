@@ -1,0 +1,232 @@
+
+.container-fluid{
+
+width: 100%;
+height: 100vh;
+}
+
+.row{
+    display: flex;
+}
+.col-md-7{
+    
+    height: 100vh;
+     /* background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%); */
+     background: linear-gradient(140.72deg, #EAECF0 -43.62%, #6C03C0 91.63%);
+
+}
+.col1{
+    margin-left: 70px;
+}
+.col-md-5{
+    background-color:whitesmoke
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+
+ .col-md-7 h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 50px;
+    margin-top: 40px;
+    line-height: 25px;
+    
+}
+.col1 p{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    font-size: 22px;
+    padding-top: 0;
+
+
+}
+.leftsection{
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center; */
+}
+.leftsection-p1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  font-style: normal;
+  color:#ffff;
+  line-height: 30px;
+}
+.leftsection2{
+    padding-top: 25px !important;
+
+}
+.leftsectionp2{
+    font-family: "Poppins", sans-serif;
+  font-size: 16px !important;
+  
+  color:#ffff;
+  padding-top: 20px !important;
+  
+  
+}
+.leftsection img
+{width: 480px;
+    height: 300px;
+    top: 318px;
+    left: 68px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 25px;
+    
+    
+    }
+    .loginform{
+        margin-left: 80px;
+        height: 400px;
+        width: 330px;
+        margin-top: 60px;
+        /* margin-left: 120px; */
+    }
+    .loginform h2{
+        /* margin-left: 45px; */
+        
+        /* font-weight: 500; */
+        font-family: Poppins;
+font-size: 25px;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+
+    }
+    .para{
+/* margin-left: 10px; */
+color: #B3B3B3;
+        /* font-weight: 400; */
+        /* font-size: 16px; */
+        font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+
+        
+    }
+    .username{
+        padding:4px;
+        /* width: 75%; */
+        margin-top: 40px;
+        /* border-color: rgb(190, 172, 172); */
+        /* border-radius: 10px; */
+        width: 385px;
+height: 43px;
+top: 363px;
+left: 88px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #E5E5E5
+
+ 
+    }
+    .passinput{
+        padding:4px;
+        /* width: 75%; */
+        margin-top: 20px;
+        /* border-color: rgb(184, 177, 177); */
+        /* border-radius: 10px; */
+        width: 385px;
+height: 43px;
+top: 421px;
+left: 88px;
+gap: 0px;
+border-radius: 5px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+border: 1px solid #E5E5E5
+
+ 
+    }
+    .inputs #toggler {
+        position: absolute;
+        cursor: pointer;
+        transform: translateY(55px);
+     top: 31%; 
+     right: 14%; 
+   color: #B3B3B3; 
+   width: 19.5px;
+height: 15px;
+/* top: 435px; */
+left:1240px;
+gap: 0px;
+border: 1.5px 0px 0px 0px;
+opacity: 0px;
+
+    }
+    button{
+        /* width: 75%; */
+        /* background-color: rgb(110, 22, 128); */
+        background-color: #6C03C0;
+        /* padding: 5px; */
+        border: none;
+        /* margin-top: 40px; */
+        font-size: larger;
+        font-weight: 500;
+        /* border-radius: 10px !important; */
+        color: #EAECF0;
+        width:  385px;
+height: 48px;
+top: 565px;
+left: 88px;
+padding: 14px 110px 14px 110px;
+gap: 10px;
+border-radius: 5px !important;
+opacity: 0px;
+
+
+        
+    }
+   .inputs a{
+        text-decoration: none;
+        color: #2498DB;
+        font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+
+
+    }
+    .inputs{
+/* margin-left: 20px; */
+align-items: center;
+justify-content: center;
+    }
+ .inputsection{
+     margin-left: 35px; 
+    width: 254px;
+height: 21px;
+top: 657px;
+left: 154px;
+gap: 0px;
+opacity: 0px;
+color: #000000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+
+
+
+}
+::placeholder{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+/* text-align: left; */
+padding-left: 10px;
+
+}

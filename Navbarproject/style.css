@@ -1,0 +1,1456 @@
+/* #tranning-navbar-main {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    z-index: 1;
+    border-radius: 50px;
+    margin: 3% 7% 0% 7%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+#tranning-navbar-main a {
+    color: white !important;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 70px;
+  
+}
+
+#b-tranning-logo {
+    width: 4%;
+    margin: 0 166px 0 161px;
+}
+
+
+
+
+#tranning-navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (min-width:310px) and (max-width:768px)
+{
+
+    #b-tranning-logo {
+      width: 10%;
+        margin: 0 15px 0 15px;
+    }
+    #tranning-navbar-main a {
+      text-align: center;
+  }
+}
+
+ 
+*/
+
+
+
+
+/* rutuja code */
+
+
+
+.b-tranning-hm-sec1 {
+
+    height: 100vh;
+}
+
+.video-container {
+
+
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+#video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 10%;
+
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.b-tranning-hm-sec1 {
+
+    /* background: url('images/b-tranning-hm-sec1-bg.mp4');
+    background-size: cover;
+    opacity: 0.5;  */
+}
+
+
+
+
+
+.b-tranning-hm-sec1-title1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    /* font-family: "Barlow", sans-serif; */
+    /* padding: 24% 49% 0% 20%; */
+    line-height: 5rem;
+    text-align: left;
+    font-family: "Baloo Thambi 2", system-ui;
+}
+
+.b-tranning-hm-sec1-p1 {
+    color: white;
+    margin: 2% 17% 0% 17%;
+    font-size: 1rem;
+}
+
+
+
+@media (min-width:310px) and (max-width:414px) {
+
+    #video-bg {
+        position: absolute;
+        top: 30% !important;
+    }
+
+    .content {
+
+        top: 30% !important;
+    }
+}
+
+@media (min-width:415px) and (max-width:768px) {
+
+    #video-bg {
+        position: absolute;
+        top: 30% !important;
+        min-height: 63%;
+    }
+
+    .content {
+
+        top: 30% !important;
+    }
+}
+
+@media (min-width:310px) and (max-width:768px) {
+    #tranning-navbar-main {
+
+        z-index: 1;
+        border-radius: 16px;
+        margin: 3% 5% 0% 5%;
+    }
+
+    /* #b-tranning-logo {
+        /* width: 4%;
+        margin: 0px 28px; 
+    } */
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1% 2% 1% 2%;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1300px) {
+    #video-bg {
+        position: absolute;
+        top: 53%;
+        left: 50% !important;
+        width: 10% !important;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .b-tranning-hm-sec1 {
+        height: 71vh !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:310px) and (max-width:410px) {
+
+    .b-tranning-hm-sec1 {
+
+        height: 40vh;
+    }
+
+    .b-tranning-hm-sec1-title1 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        font-family: "Barlow", sans-serif;
+        padding: 31% 0% 0% 0%;
+        line-height: 1.8rem;
+    }
+
+
+}
+
+@media (min-width:411px) and (max-width:769px) {
+
+    .b-tranning-hm-sec1 {
+
+        height: 60vh;
+    }
+
+    .b-tranning-hm-sec1-title1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: white;
+        font-family: "Barlow", sans-serif;
+        padding: 29% 0% 0% 1%;
+        line-height: 2.3rem;
+
+    }
+
+
+
+
+
+}
+
+
+@media (min-width:769px) and (max-width:999px) {
+    .b-tranning-hm-sec1-title1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* 
+.training-website-section2 {
+    padding: 1% 0% 0% 0%;
+    height: auto;
+}
+
+
+@media (min-width:411px) and (max-width:768px) {
+    .training-website-section2 {
+        padding: 0% 0% 0% 0%;
+    }
+
+
+}
+
+
+
+.training-website-section2-heading-p1 {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.training-website-section2-heading-p2 {
+    font-family: Frank Ruhl Libre;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: right;
+}
+
+.training-website-section2-div-box1 {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 2%;
+}
+
+.training-website-section2-div-box2 {
+    display: flex;
+    justify-content: right;
+}
+
+
+.training-website-section2-divemptybox1 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2%;
+}
+
+.training-website-section2-divemptybox2 {
+    display: flex;
+    justify-content: left;
+}
+
+.training-website-section2-box {
+    height: 3vh;
+    border-radius: 50px;
+    display: block;
+}
+
+#training-website-section2-box1 {
+    width: 20%;
+    background-color: #020735;
+}
+
+#training-website-section2-box2 {
+    margin-top: 2px;
+    width: 12%;
+    background-color: #0075FD;
+}
+
+.training-website-section2-img-p {
+    position: relative;
+}
+
+.training-website-section2-img1 {
+    background-color: #F8F8F8;
+    width: 80%;
+    margin-left: 7%;
+    text-align: center;
+    position: absolute;
+    top: 76%;
+    border: 1px solid black;
+    height: auto;
+    padding: 2% 2% 2% 2%;
+}
+
+.training-website-section2-img1-p1 {
+    font-family: 'Barlow';
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+    text-align: left;
+}
+
+.training-website-section2-img1-p2 {
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+}
+
+.training-website-section2-content-row1 .training-website-section2-img-p img {
+    width: 92%;
+    margin-top: 10%;
+}
+
+.training-website-section2-img-p img {
+    margin-top: 66%;
+    width: 92%;
+}
+
+.orannge {
+    border-left: 8px solid #FF622D;
+}
+
+.dark-bllue {
+    border-left: 8px solid #6E7785;
+}
+
+.dark-yelloww {
+    border-left: 8px solid #D1B35B;
+}
+
+@media only screen and (min-width:320px) and (max-width:567px) {
+    .training-website-section2-heading-p1 {
+        font-family: 'Barlow';
+        font-weight: 700;
+        font-size: 29px;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .training-website-section2-img-p img {
+        margin-top: 40%;
+        width: 100%;
+    }
+
+    .training-website-section2-img1 {
+        background-color: #F8F8F8;
+        width: 87%;
+        margin-left: 7%;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        border: 1px solid black;
+        height: auto;
+
+        padding: 2% 2% 2% 2%;
+    }
+
+    .orannge {
+        border-left: 8px solid #FF622D;
+    }
+
+    .dark-bllue {
+        border-left: 8px solid #6E7785;
+    }
+
+    .dark-yelloww {
+        border-left: 8px solid #D1B35B;
+    }
+
+    .training-website-section2-content-row1 .training-website-section2-img-p img {
+        width: 100%;
+        margin-top: 40%;
+    }
+
+    #training-website-section2-box1 {
+        width: 43%;
+        background-color: #020735;
+    }
+
+    #training-website-section2-box2 {
+        margin-top: 2px;
+        width: 25%;
+        background-color: #0075FD;
+    }
+}
+
+@media only screen and (min-width:568px) and (max-width:767px) {
+    .training-website-section2-img-p img {
+        height: 50%;
+        margin-top: 27%;
+
+    }
+
+    .training-website-section2-img1-p1 {
+        font-family: 'Barlow';
+        font-size: 20px;
+        font-weight: 600;
+        color: #000000;
+        padding: 10px;
+        border-bottom: 1px solid blue;
+        text-align: left;
+    }
+
+    .training-website-section2-img1 {
+        background-color: #F8F8F8;
+        width: 90%;
+        margin-left: 7%;
+        text-align: center;
+        position: absolute;
+        top: 54%;
+        border: 1px solid black;
+        height: 51vh;
+        padding: 10px;
+    }
+
+    .training-website-section2-img1-p2 {
+        font-family: Frank Ruhl Libre;
+        font-size: 18px;
+    }
+
+    .orannge {
+        border-left: 8px solid #FF622D;
+    }
+
+    .dark-bllue {
+        border-left: 8px solid #6E7785;
+    }
+
+    .dark-yelloww {
+        border-left: 8px solid #D1B35B;
+    }
+
+    .training-website-section2-content-row1 .training-website-section2-img-p img {
+        width: 100%;
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:999px) {
+    .training-website-section2-img-p img {
+        width: 100%;
+        margin-top: 40%;
+
+    }
+
+    .training-website-section2-img1-p1 {
+        font-family: 'Barlow';
+        font-size: 17px;
+        font-weight: 600;
+        color: #000000;
+        padding: 10px;
+        border-bottom: 1px solid blue;
+        text-align: left;
+    }
+
+    .training-website-section2-img1 {
+        background-color: #F8F8F8;
+        width: 87%;
+        margin-left: 7%;
+        text-align: center;
+        position: absolute;
+        top: 62%;
+        border: 1px solid black;
+        height: auto;
+        padding: 2% 2% 2% 2%;
+    }
+
+    .orannge {
+        border-left: 8px solid #FF622D;
+    }
+
+    .dark-bllue {
+        border-left: 8px solid #6E7785;
+    }
+
+    .dark-yelloww {
+        border-left: 8px solid #D1B35B;
+    }
+
+    .training-website-section2-content-row1 .training-website-section2-img-p img {
+        width: 100%;
+        margin-top: 30%;
+    }
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+.training-website-section2-img1-p1 {
+
+    font-size: 1rem;
+ 
+}
+
+} */
+
+
+
+
+
+
+
+.brightlink-new-home-page{
+    background-image: url('images/modern-equipped-computer-lab\ 1.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+}
+.brightlink-new-home-page-section2{
+    background-image: url('images/sec2-bg-image.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: 
+    #F1F2FD;
+    height: auto;
+    padding: 2% 0% 5% 0%;
+
+    .card{
+        background-color: #fff;
+    }
+}
+.brightlink-new-home-page-section2-heading1{
+    font-family: 'Barlow';
+    color: 
+    #000000;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.brightlink-new-home-page-section2-heading2{
+    font-family: 'Frank Ruhl Libre';
+    color: 
+    #000000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.brightlink-new-home-page-section2-heading-div{
+    width: 50%;
+    margin: 0% 0% 3% 27%;
+}
+.brightlink-new-home-page-section2-courses-col1 {
+    /* margin: -20% 0% 0% 0%; */
+    height: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.brightlink-new-home-page-section2-courses-paragraph1 {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 1.6rem;
+    width: 45%;
+}
+.brightlink-new-home-page-section2-courses-image {
+    margin: -35% 0% 0% 39%;
+    width: 60%;
+}
+.brightlink-new-home-page-section2-courses-paragraph2{
+    background-color: #F1F2FD;
+    padding: 20px;
+    font-family: 'Frank Ruhl Libre';
+    color: 
+    #000000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.brightlink-new-home-page-section2-courses-row1{
+    margin: 13% 0% 0% 0% !important;
+}
+
+.brightlink-new-home-page-section2-courses-row2{
+    margin: 13% 0% 0% 0% !important;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .brightlink-new-home-page-section2-heading1 {
+        font-size: 1.7rem;
+    }
+    .brightlink-new-home-page-section2-heading-div {
+        width: 100%;
+        margin: 4% 0% 3% 0%;
+    }
+    .brightlink-new-home-page-section2-heading2 {
+        font-size: 1rem;
+        margin: 0% 4% 0% 4%;
+    }
+    .brightlink-new-home-page-section2-courses-paragraph1 {
+        font-family: 'Barlow';
+        font-weight: 600;
+        font-size: 1.3rem;
+        width: 50%;
+    }
+} 
+
+
+@media only screen and (min-width:310px) and (max-width : 574px)
+{
+
+    .brightlink-new-home-page-section2-courses-row1-col1{
+        margin-top: 25% !important;
+    }
+
+    .brightlink-new-home-page-section2-courses-row1-col3 {
+        margin-top: 25% !important;
+    }
+
+    .brightlink-new-home-page-section2-courses-row2-col1{
+        margin-top: 25% !important;
+    }
+
+    .brightlink-new-home-page-section2-courses-row2-col3 {
+        margin-top: 25% !important;
+    }
+}
+
+@media only screen and (min-width:575px) and (max-width : 1000px)
+{
+    .brightlink-new-home-page-section2-courses-row1-col3{
+            margin-top: 15% !important; 
+    }
+    .brightlink-new-home-page-section2-courses-row2-col3{
+        margin-top: 15% !important; 
+}
+}
+/* *************section3 CSS***************** */
+
+.training-website-home-section3 {
+    background-color: #020735;
+  
+    /* margin-top: 20%; */
+
+    height: auto;
+  }
+  .training-website-home-section3-skin {
+    height: auto; 
+    /* margin-top: 20%; */
+    padding: 5% 0% 5% 0%;
+    background: url(images/Rectangle65906.png);
+    background-size: cover;
+  }
+  .training-website-home-section3-contentrow2 {
+    margin-top: 10%;
+  }
+  .training-website-home-section3-span1 {
+    color: #ffffff;
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1%;
+  }
+  .training-website-home-section3-p1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: Antonio;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: -2%;
+  }
+  .training-website-home-section3-contentrow-p1 {
+    margin-bottom: 1%;
+    color: #ffffff;
+    font-family: Antonio;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .training-website-home-section3-contentrow-p2 {
+    color: #ffffff;
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .training-website-home-section3-contentrow-pdiv {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .training-website-home-section3-contentrow-imgdiv img {
+    width: 38%;
+    margin-left: 39%;
+    margin-top: 10%;
+  }
+  .training-website-home-section3-contentrow1-pdiv {
+    margin-left: 16%;
+    margin-top: 1%;
+  }
+  .training-website-home-section3-contentrow2-p1 {
+    color: #ffffff;
+    font-family: Antonio;
+    margin-top: 0%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1%;
+  }
+  .training-website-home-section3-contentrow2-p2 {
+    color: #ffffff;
+    font-family: Frank Ruhl Libre;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .training-website-home-section3-contentrow2-imgdiv {
+    margin-top: 5%;
+  }
+  .training-website-home-section3-contentrow2-imgdiv img {
+    width: 38%;
+    margin-left: 22%;
+    margin-top: -24%;
+  }
+  @media only screen and (min-width: 300px) and (max-width: 567px) {
+    .training-website-about-us-page-sec3-main-div2 {
+      height: 40vh;
+      overflow-y: auto;
+      scroll-behavior: smooth;
+    }
+    #b-tranning-logo {
+      width: 9%;
+      margin: 0px 0px 0px 13px;
+    }
+    .training-website-home-section3-p1 {
+      color: #ffffff;
+      text-align: center;
+      font-family: Antonio;
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: -2%;
+    }
+    .training-website-home-section3 {
+      margin-top: 4%;
+    }
+    .training-website-home-section3-contentrow-imgdiv img {
+      margin-left: 24%;
+      width: 55%;
+    }
+    .training-website-home-section3-contentrow-pdiv {
+      margin-top: 13%;
+      margin-left: 0%;
+    }
+    .training-website-home-section3-contentrow1-pdiv {
+      margin-left: 1%;
+      margin-top: 10%;
+    }
+    .training-website-home-section3-contentrow2-imgdiv img {
+      width: 54%;
+      /* margin-left: 24%;
+              margin-top: -7%; */
+      margin: 0% 0% 16% 24%;
+    }
+  }
+  @media only screen and (min-width: 568px) and (max-width: 767px) {
+    .training-website-home-section3-contentrow-imgdiv img {
+      width: 100%;
+      margin-left: 5%;
+      margin-top: 20%;
+    }
+    .training-website-home-section3-contentrow-pdiv {
+      margin-top: 5%;
+      margin-left: 16%;
+    }
+    .training-website-home-section3-contentrow1-pdiv {
+      margin-left: 0%;
+      margin-top: 2%;
+    }
+    .training-website-home-section3-contentrow2-imgdiv img {
+      width: 67%;
+      margin-left: 18%;
+      margin-top: -4%;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .training-website-home-section3-contentrow-imgdiv img {
+      width: 51%;
+      margin-left: 39%;
+      margin-top: 13%;
+    }
+  }
+
+
+/* -----------------section6----------------------------- */
+
+.b-tranning-hm-sec6 {
+    /* height: 100vh; */
+    height: auto;
+    padding: 1% 0% 14% 0%;
+
+}
+
+.b-tranning-hm-sec6-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.b-tranning-hm-sec6-part2{
+    background-color: #020735;
+    color: white;
+    padding: 6% 0% 6% 10%;
+}
+
+.b-tranning-hm-sec6-part2-title1 {
+    font-size: 3rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    padding: 6% 24% 0% 10%;
+    line-height: 3.5rem;
+}
+
+
+
+.b-tranning-hm-sec6-part2-title1-li-title1 {
+    font-size: 1.5rem;
+    margin: 0% 0% 0% 11%;
+}
+
+.b-tranning-hm-sec6-part2-title1-li {
+    font-size: 1.2rem;
+    margin: 0% 23% 0% 14%;
+
+}
+
+.b-tranning-hm-sec6-part1-img1{
+    width: 100%;
+    margin: 0% 0% 0% 18%;
+    z-index: 1;
+}
+
+
+@media (min-width:310px) and (max-width:999px){
+    .b-tranning-hm-sec6-part1-img1{
+        width: 70%;
+        margin: 0% 0% 5% 0%;
+        z-index: 0;
+    }
+    .b-tranning-hm-sec6-part2 {
+        background-color: #020735;
+        color: white;
+        padding: 6% 0% 6% 5%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:310px) and (max-width:768px) {
+
+
+
+
+
+    .b-tranning-hm-sec6-part2-title1 {
+        font-size: 1.5rem;
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        padding: 6% 10% 0% 10%;
+        line-height: 2rem;
+
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+
+    .b-tranning-hm-sec6-part2-title1 {
+        padding: 6% 24% 0% 15%;
+    }
+
+    .b-tranning-hm-sec6-part2-title1-li-title1 {
+        font-size: 1.5rem;
+        margin: 0% 0% 0% 16%;
+    }
+
+    .b-tranning-hm-sec6-part2-title1-li {
+        margin: 0% 23% 0% 17%;
+    }
+} 
+
+
+/* .b-tranning-hm-sec6-part1 {
+    background-color: #020735;
+
+    height: 80vh;
+    width: 68%;
+    margin: 13% 0% 0% 15%;
+    color: antiquewhite;
+}
+
+
+.b-tranning-hm-sec6-part1-img1 {
+    margin: 3% 0% 0% -17%;
+    width: 50%;
+}
+
+.b-tranning-hm-sec6-part2 {
+    background-color: #020735;
+
+    height: 96vh;
+
+    width: 68%;
+    color: white;
+    margin: -41% 0% 0% 32%;
+
+}
+
+.b-tranning-hm-sec6-part2-title1 {
+    font-size: 3rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    padding: 6% 24% 0% 10%;
+    line-height: 3.5rem;
+}
+
+
+
+.b-tranning-hm-sec6-part2-title1-li-title1 {
+    font-size: 1.5rem;
+    margin: 0% 0% 0% 11%;
+}
+
+.b-tranning-hm-sec6-part2-title1-li {
+    font-size: 1.2rem;
+    margin: 0% 23% 0% 14%;
+
+}
+
+
+@media (min-width:310px) and (max-width:410px) {
+    .b-tranning-hm-sec6-part2 {
+
+        background-color: #020735;
+        height: 104vh;
+        width: 88%;
+        color: white;
+        margin: 15% 6% 0% 6%;
+
+    }
+
+}
+
+@media (min-width:411px) and (max-width:768px) {
+    .b-tranning-hm-sec6-part2 {
+
+
+        background-color: #020735;
+        height: 84vh;
+        width: 88%;
+        color: white;
+        margin: 15% 6% 0% 6%;
+
+    }
+
+}
+
+@media (min-width:310px) and (max-width:768px) {
+
+
+    .b-tranning-hm-sec6-part1 {
+        display: none;
+    }
+
+
+
+
+    .b-tranning-hm-sec6-part2-title1 {
+        font-size: 1.5rem;
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        padding: 6% 10% 0% 10%;
+        line-height: 2rem;
+
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .b-tranning-hm-sec6-part2 {
+        background-color: #020735;
+        height: 80vh;
+        width: 63%;
+        color: white;
+        margin: -82% 0 0 32%;
+
+    }
+
+    .b-tranning-hm-sec6-part2-title1 {
+        padding: 6% 24% 0% 15%;
+    }
+
+    .b-tranning-hm-sec6-part2-title1-li-title1 {
+        font-size: 1.5rem;
+        margin: 0% 0% 0% 16%;
+    }
+
+    .b-tranning-hm-sec6-part2-title1-li {
+        margin: 0% 23% 0% 17%;
+    }
+} */
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------section 4 5 7 8 ------------------------- */
+
+.traning-web-sec-4 {
+    background-color: #0075FD;
+    height: auto;
+    padding: 0% 0% 10% 0%;
+}
+
+.traning-web-sec4-left-div-img {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+@media (min-width:320) and (max-width: 768px) {
+    .traning-web-sec4-left-div-img {
+        width: 100%;
+    }
+
+
+
+}
+
+.traning-web-sec4-left-div-card-text {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 20px;
+
+
+}
+
+@media (min-width:320) and (max-width: 768px) {
+
+
+    .traning-web-sec4-left-div-card-text {
+        top: 85%
+    }
+}
+
+.traning-web-sec4-left-div-card {
+
+
+    padding: 10px;
+    width: 92%;
+    position: absolute;
+    top: 6%;
+    left: 17%
+}
+
+@media (max-width: 992px) {
+
+    .traning-web-sec4-left-div-card-frame {
+        top: 37%;
+    }
+
+
+
+
+
+
+}
+
+.traning-web-sec4-left-div-card-frame {
+    border: 1px solid white;
+
+    padding: 10%;
+    position: fixed;
+    left: 24%;
+    top: 47%;
+
+}
+
+.traning-web-sec4-right-div-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.traning-web-sec4-right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.traning-web-sec4-right-subdiv1 {
+    margin: 5% 0% 0% 0%;
+}
+
+.traning-web-sec4-right-div p {
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
+@media (max-width: 768px) {
+    .traning-web-sec4-right-div {
+        /* margin-top: 30%; */
+    }
+
+
+
+    .traning-web-sec4-right-div-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+/******************* Section5 **************/
+
+.traning-web-sec5-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#traning-web-sec5-card1 {
+    box-shadow: 10px 10px rgba(77, 192, 159, 255);
+
+
+}
+
+#traning-web-sec5-card1:hover {
+    box-shadow: 10px 10px rgb(178, 231, 218);
+    transition: box-shadow 0.3s;
+}
+
+#traning-web-sec5-card1:hover {
+    background-color: rgba(77, 192, 159, 255);
+    transition: background-color 0.3s;
+}
+
+
+#traning-web-sec5-card2 {
+    box-shadow: 10px 10px #b4df81;
+
+
+}
+
+#traning-web-sec5-card2:hover {
+    box-shadow: 10px 10px #e5f8ce;
+    transition: box-shadow 0.3s;
+}
+
+#traning-web-sec5-card2:hover {
+    background-color: #b4df81;
+    transition: background-color 0.3s;
+}
+
+#traning-web-sec5-card3 {
+    box-shadow: 10px 10px #92d7f0;
+
+
+}
+
+#traning-web-sec5-card3:hover {
+    box-shadow: 10px 10px #d1ecf7;
+    transition: box-shadow 0.3s;
+}
+
+#traning-web-sec5-card3:hover {
+    background-color: #92d7f0;
+    transition: background-color 0.3s;
+}
+
+#traning-web-sec5-card4 {
+    box-shadow: 10px 10px #f49e91;
+}
+
+#traning-web-sec5-card4:hover {
+    box-shadow: 10px 10px #f8d6d3;
+    transition: box-shadow 0.3s;
+}
+
+#traning-web-sec5-card4:hover {
+    background-color: #f49e91;
+    transition: background-color 0.3s;
+}
+
+.traning-web-sec5-card-img {
+    float: right;
+}
+
+.traning-web-sec5-card-img img {
+    height: auto;
+    /* Maintain aspect ratio */
+    position: absolute;
+    left: 3%;
+    top: 2%;
+}
+
+#traning-web-sec4-right-div-img {
+    /* position: absolute;
+ top: 48%;
+ left: 68%; */
+    width: 28%;
+    margin: 0% 0% 0% 63%;
+}
+
+#traning-web-sec4-right-div-img img {
+    width: 100%;
+
+}
+
+.traning-web-sec5-card-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
+.traning-web-sec5-card-content {
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.bit-navbar-company-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+  
+    display: none;
+  }
+  
+  
+  .t-bit-navbar-icon-div{
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+  }
+  
+  .t-bit-navbar-link-icon{
+    width: 10%;
+    margin: 0% 4% 0% 0%;
+  
+  }
+
+@media (min-width:320px) and (max-width:520px) {
+    .traning-web-sec4-left-div-card-text {
+        font-size: 0.8rem;
+        padding: 0px 0px;
+        line-height: 1rem;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:999px) {
+
+    .traning-web-sec4-left-div-card-text {
+        font-size: 0.7rem;
+        padding: 0px 0px;
+
+    }
+}
+
+
+@media (min-width:310px) and (max-width:768px) {
+.traning-web-sec5-title {
+    font-size: 1.5rem;
+}
+#traning-web-sec5-card3-col3{
+    margin-top: 10%;
+}
+}
+/***************** section7 *********/
+.traning-web-sec7 {
+    background-color: #0075FD;
+    height: auto;
+    padding: 3% 0% 3% 0%;
+
+}
+
+
+
+
+.traning-web-sec7-left-div-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+
+    margin: 7% 0% 0% 7%;
+}
+
+.traning-web-sec7-left-div-content li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin: 2% 9% 0% 10%;
+}
+
+.traning-web-sec7-right-div img {
+    /* margin-top: 10%; */
+    width: 80%;
+}
+
+.traning-web-sec7-right-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:310px) and (max-width:999px)
+{
+    .traning-web-sec7-right-div img {
+        /* margin-top: 10%; */
+        width: 45%;
+    }
+}
+/************** section8 **************/
+
+.traning-web-sec8-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.traning-web-sec8-content {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+@media (min-width:310px) and (max-width:768px) {
+
+    .traning-web-sec7-right-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .traning-web-sec7-right-div img {
+        /* margin-top: 10%; */
+        width: 50%;
+        border-radius: 8px;
+    }
+
+    .traning-web-sec8-title {
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+
+    #traning-web-sec5-card2 {
+        margin: 12% 0% 0% 0%;
+    }
+
+
+    .traning-web-sec7-left-div-title {
+        font-size: 1.5rem;
+     
+    }
+}

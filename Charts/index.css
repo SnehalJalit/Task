@@ -1,0 +1,330 @@
+.mainsection {
+    background: linear-gradient(180.82deg, #0077FF -26.11%, rgba(128, 43, 34, 0) 99.29%);
+    width: auto;
+    padding: 5px 20px 10px 20px;
+}
+
+.mainsectionrow1 {
+    width: 100%;
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+
+    top: 87px;
+    left: 20px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+
+    opacity: 0px;
+
+    margin-top: 20px !important;
+
+
+}
+
+.mainsectionrow1p1 {
+    color: #000000;
+    padding: 10px 10px 0px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    letter-spacing: -0.4099999964237213px;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.mainsectionrow2col2p1span {
+    color: #0751FF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin-left: 60%;
+
+}
+
+.mainsectionrow2 {
+    display: flex;
+
+}
+
+.mainsectionrow2col1 {
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+    /* width: 30%;
+    */
+    /* margin-right: 4px !important; */
+    padding-right: 3% !important;
+    gap: 0px;
+    border-radius: 25px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+.mainsectionrow2col2 {
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+
+
+    gap: 0px;
+    border-radius: 25px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.mainsectionrow2col3 {
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+    gap: 0px;
+    border-radius: 25px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.mainsectionrow2col1p1,
+.mainsectionrow2col2p1,
+.mainsectionrow2col3p1 {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    /* text-align: left; */
+    color: #000000;
+    margin: 10px 25px 10px 15px;
+    padding-top: 10px;
+}
+
+.legendcontent {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.chart canvas {
+    width: 200px !important;
+    height: 200px !important;
+
+}
+
+.chart2 canvas {
+    width: 200px !important;
+    height: 200px !important;
+
+}
+
+.arrow.contact {
+    top: 280px;
+    left: 20px;
+}
+
+.arrow.qualify {
+    top: 100px;
+    left: 30px;
+}
+
+.arrow.proposal {
+    top: 240px;
+    /* right: 30px; */
+    left: 24%;
+}
+
+.arrow.negotiation {
+    top: 120px;
+    left: 22%;
+}
+
+.arrow {
+    position: absolute;
+    font-size: 14px;
+}
+
+/* Adjust the positioning of each arrow and label */
+.arrow.contact {
+    top: 210px;
+    left: 40px;
+}
+
+.arrow.qualify {
+    top: 270px;
+    left: 60px;
+}
+
+.chart2 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.piechartcontent {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.piechartcontent canvas {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+li {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    /* line-height: 16.5px; */
+    /* letter-spacing: -0.4099999964237213px; */
+    text-align: left;
+
+
+}
+
+.ref::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #F68D2B;
+    /* Change the color if desired */
+}
+
+.coldcall::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #344BFD;
+    /* Change the color if desired */
+}
+
+.facebook::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #009D19;
+    /* Change the color if desired */
+}
+
+.insta::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #FFD200;
+    /* Change the color if desired */
+}
+
+.linkdin::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #F4A79D;
+    /* Change the color if desired */
+}
+
+.email::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #FF0000;
+    /* Change the color if desired */
+}
+
+.other::marker {
+    font-size: 1rem;
+    /* Adjust the size as needed */
+    color: #7C1CF5;
+    /* Change the color if desired */
+}
+.mainsectionrow2colsection1{
+    background: linear-gradient(180deg, #FAFAFA 0%, #FFFFFF 100%);
+    
+border-radius: 25px ;
+border: 0.5px 0px 0px 0px;
+opacity: 0px;
+
+
+
+}
+.mainsectionrow2colsection1p2{
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    color: #000000;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 22.5px;
+letter-spacing: -0.4099999964237213px;
+text-align: left;
+padding-top: 10px;
+
+
+}
+.mainsectionrow2colsection1leftli{
+    font-family: Poppins;
+font-size: 0.8rem;
+font-weight: 500;
+/* line-height: 20px; */
+text-align: left;
+color: #000000;
+margin-top: 5%;
+
+}
+.mainsectionrow2colsection1left{
+text-align: start;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #000000;
+
+}
+.mainsectionrow2colsection1left2{
+    text-align: start;
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #000000;
+/* padding-top: 1%; */
+}
+.btn1{
+    color: #0095FF;
+    border:1px solid #0095FF;
+border-radius: 8px;
+background: #F0F9FF;
+/* margin-left: 20% */margin-top:10%;
+}
+.btn2{
+    /* margin-left: 20%; */margin-top: 10%;
+    color: #00E58F;
+    background: #F0FDF4;
+    border:1px solid #00E58F ;
+    border-radius: 8px;
+}
+.btn3{
+    /* margin-left: 20%; */
+    border-radius: 8px;
+    color: #884DFF;
+    background: #FBF1FF;
+border:1px solid #884DFF;margin-top: 10%;
+}
+
+.btn4{
+
+    /* margin-left: 20%; */
+    border-radius: 8px;margin-top: 10%;
+    color: #FF8900;
+    border: 1px solid #FF8900;
+    background: #FEF6E6;
+
+}
+
+.btn5{
+    /* margin-left: 20%; */
+    border-radius: 8px;
+    border:1px solid #884DFF;
+    color: #884DFF;
+    background: #FBF1FF;
+    margin-top: 10%;
+
+}

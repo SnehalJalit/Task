@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Addemployee.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+    <!-- <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet"> -->
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin">
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="col1">
+                    <div class="col1-sectionlogo">
+                        <img src="./brightlinklogo.png" alt="">
+                    </div>
+                    <div class="col1section2">
+                        <p><img src="./Assests/Dashboard.png" alt="" width="20px" height="20px">
+                            <a href="">Dashboard</a>
+                        </p>
+                        <p> <img src="./Assests/Employee.png" alt="" width="20px" height="20px">
+                            <a href=""> Employee</a>
+                        </p>
+                        <p> <img src="./Assests/Department.png" alt="" width="17px" height="17px">
+                            <a href="">Department</a>
+                        </p>
+                        <p><img src="Assests/calender.png" alt="" width="17px" height="17px">
+                            <a href="">Attendance</a>
+                        </p>
+                        <p> <img src="./Assests/Leave.png" alt="" width="17px" height="17px"><a href="">Leave</a></p>
+                        <p><img src="./Assests/project.png" alt="" width="17px" height="17px">
+                            <a href=""> Project</a>
+                        </p>
+                        <p> <img src="./Assests/payroll.png" alt="" width="17px" height="17px"><a href="">Payroll</a>
+                        </p>
+                        <p> <img src="./Assests/User_cicrle_light.png" alt="" width="17px" height="17px">
+                            <a href="./yourprofile.html">Your Profile</a>
+                        </p>
+                        <p> <img src="./Assests/email.png" alt=""><a href="" width="10px" height="10px">Send Email</a>
+                        </p>
+                        <p> <img src="./Assests/Settings_Future.png" alt="" width="17px" height="17px"><a
+                                href="">Setting</a><br>
+                            <button class="logout">
+                        <hr><span><img src="./Assests/Logout.png" alt="" width="15px" ; height="15px" ;>
+                        </span>Log Out</button></p></div> </div>
+                                           </div>
+            <div class="col-md-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="para6">
+<img src="./Assests/Search_light.png" alt="" id="search" height="15px" width="15px">
+                                <input type="text" placeholder="Search anything here" id="input2"
+                                    class="searchanything">
+                                <span class="rightcontent">
+                                    <img src="./Assests/_Nav item button.png" alt="" width="25px" height="25px">
+                                    <img src="./Assests/_Nav item button (1).png" alt="" width="25px" height="25px">
+                                    <img src="./Assests/Component 1.png" alt="" width="25px" height="25px">
+                                </span></div></div></div>
+                    <div class="row" id="rightsection2">
+                        <div class="col-md-6">
+                            <div class="formleft">
+                                <h3 class="heading">Add Employee</h3>
+                                <div class="formleft2">
+                                    <label for="">Fullname</label><br>
+                                    <input type="text" id="input1" placeholder="Name"><br>
+                                    <label for="">Work</label><br>
+                                    <input type="text" id="input1" placeholder="Work"><br>
+                                    <label for="">Phone</label><br>
+                                    <input type="text" id="input1" placeholder="Phone"><br>
+                                    <label for="">Select shift time</label><br>
+                                    <select name="Select" class="select" placeholder="Select shift time">
+                                        <option value=" ">Select shift time</option>
+                                    </select><br>
+                                </div>
+                                <div class="gender">
+                                    <label for="Gender">Gender:</label>
+                                    <label class="gender1"><input type="radio" name="Gender" value="Male">Male</input>
+                                    </label>
+                                    <label class="gender1"><input type="radio" name="Gender"
+                                            value="Female">Female</input>
+                                    </label></div> </div></div>
+                        <div class="col-md-6">
+                            <div class="formright">
+                                <label for="">Nick Name</label><Br>
+                                <input type="text" placeholder="Name" id="input1"><br>
+                                <label for="">Email</label><br>
+                                <input type="email" placeholder="email" id="input1"><br>
+                                <label for="">Select Department</label><br>
+                                <select name="Select Department" class="select">
+                                    <option value="">Select Department</option>
+                                </select><br>
+                                <label for="" class="date">Date</label><br>
+                                <input type="date" id="input1" class="date-input">
+                            </div></div>
+                        <div class="textlibrary">
+                            <div class="editor"></div>
+                        </div>
+                        <p class="para7"><button class="cancel">Cancel</button>
+                            <button class="savedata">Save Data</button>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+    <script>
+        // Initialize Quill editor
+        var quill = new Quill('.editor', {
+            theme: 'snow',
+            modules: {
+                toolbar: [
+                    [{ header: [1, 2, false] }],
+                    ['bold', 'italic', 'underline'],
+                    ['image', 'code-block'], -->
+    <!-- ['clean'] // remove formatting button -->
+    <!-- ]
+            }})
+            </script> -->
+    <script>
+        tinymce.init({
+            selector: '.editor',  // Change this value according to your HTML
+            plugins: 'link image code',
+            toolbar: 'undo redo | styleselect | bold italic | link image | code',
+        });
+    </script>
+</body>
+
+</html>

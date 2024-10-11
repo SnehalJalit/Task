@@ -1,0 +1,162 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 241, 247);
+}
+.col-main{
+   background: url(/Project/img1.png);
+   background-position: bottom;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   
+   }
+   .col-submain{
+    display: flex;
+    
+   }
+   .col2-section1{
+    width: 50%;
+
+   }
+   
+.col1-section1-p{
+    
+font-size: 5rem;
+margin: 0;
+font-family: "Galada", cursive;
+    font-weight: 400;
+    background-clip: text !important;
+     color: transparent;
+     background: linear-gradient(94.82deg, #027DC3 5.27%, #003E5A 115.06%);
+     margin: 9px 133px;
+     padding: 0;
+     
+   
+  }
+  .col1-section1-p1{
+    font-family: "Gentium Plus", serif;
+  font-weight: 600;
+  font-size: 18px;
+  /* margin: 3px 20px; */
+  margin: 9px 133px;
+  }
+  .col1-section1-Group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col1-section1-Group img{
+    
+    width: 55%;
+    /* margin-left: 80px; */
+    
+
+}
+.col2-section1-Group1{
+    justify-content: center;
+    align-items: center;
+}
+.col2-section1-Group1 img {
+margin-left: 30%;
+    width: 147px;
+    margin-top: 9px;
+    mix-blend-mode:darken;
+    
+    
+}
+.col1-section1{
+    width: 50%;
+     justify-content: center;
+    align-items: center; 
+}
+
+.col2-section1-form{
+ margin-left: 15%;
+    border: 2px solid rgb(78, 155, 206);
+    height: 52%;
+    width: 50%;
+    border-radius: 12px;
+    margin-top: 5%;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+    
+}
+.col2-section1{
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    padding: 12px;
+    width: 75%;
+    margin-top: 6%;
+    margin-left: 6%;
+    border-radius: 12px;
+    border: 1px solid rgb(39, 145, 177);
+    
+}
+input[type=checkbox]{
+    width: 13px;
+    height: 13px;
+}
+label{
+    color: rgb(39, 94, 245);
+    font-size: larger;
+    
+}
+a{
+    margin-left: 12%;
+    font-size: larger;
+}
+button{
+    border-radius: 14px;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 5px gray;
+    font-weight: 500;
+    margin-left: 30%;
+    font-weight: 700;
+    color: black;
+}
+hr{
+    width: 30%;
+    display: inline-flex;
+    margin-left: 35px;
+    
+    }
+span{
+    margin-left: 38px;
+}
+.col2-section1-formicon img{
+width: 30px;
+height: 30px;
+top: 580px;
+margin-left: 20%;
+gap: 0px;
+opacity: 0px;
+margin-top: 10px;
+}
+.form1{
+    display: flex;
+}
+
+.form1 .icon {
+    position: absolute;
+    right: 15%; /* Position the icon */
+    
+    transform: translateY(28px);
+    pointer-events: none; /* Prevent clicks on the icon */
+}
+.form2 .icon2{
+    position: absolute;
+    right: 15%; /* Position the icon */
+    
+    transform: translateY(28px);
+    pointer-events: none; 
+   
+    
+}
